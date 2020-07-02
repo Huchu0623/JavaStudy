@@ -5,7 +5,7 @@ public class StringBuilderTest {
 	public static void main(String[] args) {
 		//immutable
 		String javaStr = new String("java");
-		//처음 객체의 인스턴화시 메모리값
+		//처음 객체의 인스턴스화시 메모리값
 		System.out.println("javaStr의 문자열 주소 : " + System.identityHashCode(javaStr));
 		//String으로부터 StringBuilder의 객체를 생성
 		StringBuilder buffer = new StringBuilder(javaStr);

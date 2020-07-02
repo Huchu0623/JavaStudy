@@ -3,7 +3,7 @@ package pk23;
 public class StringTest {
 
 	public static void main(String[] args) {
-		//객체 인스턴스는 각가의  heap메모리에 저장됨
+		//객체 인스턴스는 각각의  heap메모리에 저장됨
 		String str1 = new String("abc");
 		String str2 = new String("abc");
 

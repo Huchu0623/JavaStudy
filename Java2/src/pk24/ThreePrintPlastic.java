@@ -4,13 +4,6 @@ public class ThreePrintPlastic {
 	private Plastic material;
 	
 	
-	
-	
-		
-	
-	
-	
-	
 	public Plastic getMaterial() {
 		return material;
 	}

@@ -1,10 +1,10 @@
 package pk24;
 
-class MyArray{
+class MyArray<E>{
 	private Object[] array = new Object[10];
 	int i;
 	
-	public void add(Object obj) {
+	public void add(E obj) {
 		array[i++] = obj;
 	}
 	public Object get(int index) {
@@ -12,14 +12,14 @@ class MyArray{
 	}
 }
 public class MyArrayTest2 {
-
 	public static void main(String[] args) {
+		MyArray<String> myArray = new MyArray<String>();
 		MyArray myArray1 = new MyArray();
 		myArray1.add(new String("test"));
 		String str = (String) myArray1.get(0);//강제 형변환
 		System.out.println(str);
 		
-		MyArray myArray2 = new MyArray();
+		MyArray<Integer> myArray2 = new MyArray<Integer>();
 		myArray2.add(new Integer(100));
 		Integer num = (Integer) myArray2.get(0);//강제 형변환
 		System.out.println(num);

@@ -1,13 +1,13 @@
 package chapter26;
 
-public class Student {
+public class Student2 {
 	//필드(private)
 	private String name;
 	private String major;
 	private String number;
 	private Double grade;
 	//생성자
-	public Student(String name, String major, String number, Double grade) {
+	public Student2(String name, String major, String number, Double grade) {
 		this.name=name; this.major=major; this.number=number; this.grade=grade;
 		
 	}
